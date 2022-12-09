@@ -38,10 +38,8 @@ function finalGrade (exam, projects) {
 
 056
 var isSquare = function(n){
-    var value = Math.floor(Math.sqrt(n));
-    if (value * value == n) {
-        return true;
-    }
-    return false; // fix me
-
+    return Number.isInteger(Math.sqrt(n));
 }
+
+057
+
