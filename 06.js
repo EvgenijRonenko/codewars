@@ -47,4 +47,18 @@ function doubleInteger(i) {
     return i * 2;
 }
 
+058
+function testEven(n) {
+    return n % 2 === 0 ? true : false;
+}
+
+059
+function isTriangle(a,b,c){
+    if ((a + b > c) && (b + c > a) && (a + c > b)) {
+        return true;
+    }
+    return false;
+}
+
+
 
