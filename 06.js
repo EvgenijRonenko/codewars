@@ -35,3 +35,13 @@ function finalGrade (exam, projects) {
     }
     return 0
 }
+
+056
+var isSquare = function(n){
+    var value = Math.floor(Math.sqrt(n));
+    if (value * value == n) {
+        return true;
+    }
+    return false; // fix me
+
+}
