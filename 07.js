@@ -28,9 +28,10 @@ function oddOrEven(array) {
 
 064
 function nbYear(p0, percent, aug, p) {
-    let years = 0;
-    for (years; p0 < p; years++) {
-        p0 += p0 * (percent / 100) + aug;
+    var count = 0;
+    while (p0 < p) {
+        p0 = Math.floor((1 + percent / 100) * p0 + aug);
+        count++
     }
-    return years;
+    return count;
 }
