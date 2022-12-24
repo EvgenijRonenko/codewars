@@ -42,3 +42,6 @@ const arithmetic = (a, b, operator) => {
         operator === "add" ? a + b : operator === "subtract" ? a - b : operator === "multiply" ? a * b : a / b
     )
 }
+
+066
+smallEnough = (a, limit) => a.every(e => e <= limit)
