@@ -52,6 +52,6 @@ let numbers = num.toString().split('')
 let r = numbers.map((el)=> el **2)
 let r1 = +r.join('')
 
-function squareDigits(num){
-    return +num.toString().split('').map(i => i*i).join('');
+function squareDigits(num) {
+    return +num.toString().split('').map(i => i * i).join('');
 }
