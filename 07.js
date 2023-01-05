@@ -55,3 +55,6 @@ let r1 = +r.join('')
 function squareDigits(num) {
     return +num.toString().split('').map(i => i * i).join('');
 }
+
+068
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
