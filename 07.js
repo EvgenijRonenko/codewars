@@ -62,5 +62,5 @@ const doubleChar = (str) => str.split("").map(c => c + c).join("");
 069
 correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')
 
-07
+070
 
